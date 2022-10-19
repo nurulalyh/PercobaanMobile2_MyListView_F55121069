@@ -4,7 +4,6 @@
     <string name="lorem">lorem ipsum dolor sit amet</string>
 
     <string-array name="data_name">
-        <item>Nurul Aliyah Dyah Sakhinah</item>
         <item>Ahmad Dahlan</item>
         <item>Ahmad Yani</item>
         <item>Sutomo</item>
@@ -15,11 +14,10 @@
         <item>Soekarno</item>
         <item>Soepomo</item>
         <item>Tan Malaka</item>
+        <item>Nurul Aliyah Dyah Sakhinah</item>
     </string-array>
 
     <string-array name="data_description">
-        <item>Merupakan salah satu mahasiswi Universitas Tadulako Fakultas Teknik Jurusan Teknologi Informasi Prodi S1-Teknik Informatika. Sekarang berumur 19 tahun dan tinggal di Kota Palu
-            tepatnya di Perumahan Dosen Untad Blok B1 No. 13</item>
         <item>Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu
             Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar
             dan berbuat. </item>
@@ -56,10 +54,11 @@
         <item>Tan Malaka atau Ibrahim gelar Datuk Sutan Malaka (lahir di Nagari Pandam Gadang, Suliki, Lima Puluh Kota, Sumatera Barat, 2 Juni 1897 – meninggal di Desa Selopanggung, Kediri, Jawa
             Timur, 21 Februari 1949 pada umur 51 tahun) adalah seorang pembela kemerdekaan Indonesia, tokoh Partai Komunis Indonesia, juga pendiri Partai Murba, dan merupakan salah satu Pahlawan
             Nasional Indonesia.</item>
+        <item>Merupakan salah satu mahasiswi Universitas Tadulako Fakultas Teknik Jurusan Teknologi Informasi Prodi S1-Teknik Informatika. Sekarang berumur 19 tahun dan tinggal di Kota Palu
+            tepatnya di Perumahan Dosen Untad Blok B1 No. 13</item>
     </string-array>
 
     <array name="data_photo">
-        <item>@drawable/pas_foto</item>
         <item>@drawable/ahmad_dahlan</item>
         <item>@drawable/ahmad_yani</item>
         <item>@drawable/bung_tomo</item>
@@ -70,6 +69,7 @@
         <item>@drawable/sukarno</item>
         <item>@drawable/supomo</item>
         <item>@drawable/tan_malaka</item>
+        <item>@drawable/pas_foto</item>
     </array>
 </resources>
 

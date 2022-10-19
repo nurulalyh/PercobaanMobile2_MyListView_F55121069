@@ -15,9 +15,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String[] dataName;
-    private String[] dataDescription;
-    private TypedArray dataPhoto;
+    private String[] data_Name;
+    private String[] data_Description;
+    private TypedArray data_Photo;
     private HeroAdapter adapter;
     private ArrayList<Hero> heroes;
 
@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
+                if (position == 10) {
                     startActivity(new Intent(MainActivity.this, nurul.class));
+                }
+                else {
+                    Toast.makeText(MainActivity.this, heroes.get(position).getName(), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -45,19 +48,19 @@ public class MainActivity extends AppCompatActivity {
     private void addItem() {
         heroes = new ArrayList<>();
 
-        for (int i = 0; i < dataName.length; i++) {
+        for (int i = 0; i < data_Name.length; i++) {
             Hero hero = new Hero();
-            hero.setPhoto(dataPhoto.getResourceId(i, -1));
-            hero.setName(dataName[i]);
-            hero.setDescription(dataDescription[i]);
+            hero.setPhoto(data_Photo.getResourceId(i, -1));
+            hero.setName(data_Name[i]);
+            hero.setDescription(data_Description[i]);
             heroes.add(hero);
         }
         adapter.setHeroes(heroes);
     }
 
     private void prepare() {
-        dataName = getResources().getStringArray(R.array.data_name);
-        dataDescription = getResources().getStringArray(R.array.data_description);
-        dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
+        data_Name = getResources().getStringArray(R.array.data_name);
+        data_Description = getResources().getStringArray(R.array.data_description);
+        data_Photo = getResources().obtainTypedArray(R.array.data_photo);
     }
 }
